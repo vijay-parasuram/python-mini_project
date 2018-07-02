@@ -290,7 +290,7 @@ try :
 			new_type_no = int(new_type_no)		
 		
 			if new_type_no<count and new_type_no>0 :
-				product_type = types[count-2]
+				product_type = types[new_type_no-1]
 			elif new_type_no == count :
 				product_type = raw_input("enter the new type name : ")
 			if d==0 :
